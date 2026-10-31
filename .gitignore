@@ -1,0 +1,4 @@
+node_modules/
+.playwright-cli/
+design-extract-output/
+.impeccable/config.local.json
