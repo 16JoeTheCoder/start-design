@@ -1,5 +1,8 @@
 # References
 
+Start with `INSPIRATION.md`: seven studied sites, what each does uniquely, and how to build it under DESIGN.md.
+Raw designlang output and snapshots live in the per-host folders beside it.
+
 designlang extracts a site's design language for study. It needs to open arbitrary websites, which
 the cloud allowlist blocks, so **run it on your own machine only** (Ubuntu or WSL terminal). Commit the
 results here; cloud sessions read them as files.

@@ -1,0 +1,123 @@
+{
+  "$description": "Motion tokens extracted by designlang",
+  "duration": {
+    "sm": {
+      "$value": "250ms",
+      "$type": "duration",
+      "ms": 250,
+      "$extensions": {
+        "designlang.observed": true
+      }
+    },
+    "md": {
+      "$value": "280ms",
+      "$type": "duration",
+      "ms": 280
+    },
+    "lg": {
+      "$value": "480ms",
+      "$type": "duration",
+      "ms": 480,
+      "$extensions": {
+        "designlang.observed": true
+      }
+    },
+    "xxl": {
+      "$value": "10s",
+      "$type": "duration",
+      "ms": 10000,
+      "$extensions": {
+        "designlang.observed": true
+      }
+    }
+  },
+  "easing": {
+    "ease-out-4": {
+      "$value": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "$type": "cubicBezier",
+      "family": "ease-out"
+    },
+    "custom-900": {
+      "$value": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "$type": "cubicBezier",
+      "family": "custom"
+    }
+  },
+  "spring": {},
+  "$meta": {
+    "feel": "responsive",
+    "scrollLinked": true,
+    "runtime": {
+      "triggers": [
+        "load",
+        "focus",
+        "scroll"
+      ],
+      "observed": 17
+    }
+  },
+  "choreography": {},
+  "scroll": {
+    "reveal-1": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "translate"
+      ],
+      "durationMs": 480,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "selector": "html > body > main > header"
+    },
+    "reveal-2": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 250,
+      "easing": "ease",
+      "selector": "body > main > button > svg:nth-of-type(2)"
+    },
+    "reveal-3": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "stroke-dashoffset"
+      ],
+      "durationMs": 1250,
+      "easing": "linear",
+      "selector": "a > span > svg > path:nth-of-type(1)"
+    },
+    "reveal-4": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "stroke-dashoffset"
+      ],
+      "durationMs": 1250,
+      "easing": "linear",
+      "selector": "a > span > svg > path:nth-of-type(2)"
+    },
+    "reveal-5": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "stroke-dashoffset"
+      ],
+      "durationMs": 1250,
+      "easing": "linear",
+      "selector": "a > span > svg > path:nth-of-type(3)"
+    },
+    "reveal-6": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 10000,
+      "easing": "linear",
+      "selector": "a > span > span:nth-of-type(2) > span:nth-of-type(2)"
+    }
+  }
+}

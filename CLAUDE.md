@@ -41,3 +41,6 @@
 - Never stop to ask before installing packages or running builds, tests or dev servers.
 - If a host is blocked (403, "Host not in allowlist"), note it, use a fallback (npm registry instead of a CDN or GitHub release, a local copy, or skip the optional step) and continue.
 - The final report lists every blocked host, with the fallback used.
+
+## Design references
+- `references/INSPIRATION.md` holds studied sites (Heron, Montarville, PDA, Mecha, dbydt, Jesper, Edison) with the one mechanism each is worth stealing. Read it when choosing a signature moment, a list pattern or wayfinding. Evidence tags mark what was seen vs inferred. DESIGN.md still wins on every token.
