@@ -1,0 +1,643 @@
+{
+  "$description": "Motion tokens extracted by designlang",
+  "duration": {
+    "xs": {
+      "$value": "100ms",
+      "$type": "duration",
+      "ms": 100
+    },
+    "sm": {
+      "$value": "200ms",
+      "$type": "duration",
+      "ms": 200
+    },
+    "md": {
+      "$value": "300ms",
+      "$type": "duration",
+      "ms": 300
+    },
+    "lg": {
+      "$value": "450ms",
+      "$type": "duration",
+      "ms": 450
+    },
+    "xl": {
+      "$value": "1.2s",
+      "$type": "duration",
+      "ms": 1200,
+      "$extensions": {
+        "designlang.observed": true
+      }
+    },
+    "xxl": {
+      "$value": "5s",
+      "$type": "duration",
+      "ms": 5000,
+      "$extensions": {
+        "designlang.observed": true
+      }
+    }
+  },
+  "easing": {
+    "custom-56": {
+      "$value": "cubic-bezier(0.625, 0.05, 0, 1)",
+      "$type": "cubicBezier",
+      "family": "custom"
+    },
+    "ease-out-1": {
+      "$value": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "$type": "cubicBezier",
+      "family": "ease-out"
+    },
+    "custom-311": {
+      "$value": "cubic-bezier(0.59, 0.23, 0.22, 0.96)",
+      "$type": "cubicBezier",
+      "family": "custom"
+    }
+  },
+  "spring": {},
+  "$meta": {
+    "feel": "mixed",
+    "scrollLinked": true,
+    "runtime": {
+      "triggers": [
+        "load",
+        "scroll"
+      ],
+      "observed": 120
+    }
+  },
+  "choreography": {
+    "stagger-1": {
+      "$type": "designlang.choreography",
+      "trigger": "load",
+      "staggerMs": 200,
+      "count": 3,
+      "durationMs": 1200,
+      "easing": "linear",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "selectorPattern": "div#w-node-e85227fb-88b5-7047-336c-6c6f51a18102-02cc3ba1 > div:nth-of-type(*) > div:nth-of-type(*) > div:nth-of-type(*)"
+    },
+    "stagger-2": {
+      "$type": "designlang.choreography",
+      "trigger": "scroll",
+      "staggerMs": 200,
+      "count": 3,
+      "durationMs": 1200,
+      "easing": "linear",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "selectorPattern": "div#w-node-e85227fb-88b5-7047-336c-6c6f51a18102-02cc3ba1 > div:nth-of-type(*) > div:nth-of-type(*) > div:nth-of-type(*)"
+    }
+  },
+  "scroll": {
+    "reveal-1": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 1500,
+      "easing": "linear",
+      "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(3)"
+    },
+    "reveal-2": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 1500,
+      "easing": "linear",
+      "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3)"
+    },
+    "reveal-3": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-c2b0b00d-c30e-bf0b-afd9-f76de8e2175e-02cc3ba1 > div:nth-of-type(2) > div:nth-of-type(1)"
+    },
+    "reveal-4": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-c2b0b00d-c30e-bf0b-afd9-f76de8e2175e-02cc3ba1 > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "reveal-5": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-c2b0b00d-c30e-bf0b-afd9-f76de8e2175e-02cc3ba1 > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)"
+    },
+    "reveal-6": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-c2b0b00d-c30e-bf0b-afd9-f76de8e2175e-02cc3ba1 > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2)"
+    },
+    "reveal-7": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-c2b0b00d-c30e-bf0b-afd9-f76de8e2175e-02cc3ba1 > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(3)"
+    },
+    "reveal-8": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-c2b0b00d-c30e-bf0b-afd9-f76de8e2175e-02cc3ba1 > div:nth-of-type(3) > div:nth-of-type(1)"
+    },
+    "reveal-9": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-c2b0b00d-c30e-bf0b-afd9-f76de8e2175e-02cc3ba1 > div:nth-of-type(3) > div:nth-of-type(2)"
+    },
+    "reveal-10": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-c2b0b00d-c30e-bf0b-afd9-f76de8e2175e-02cc3ba1 > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(1)"
+    },
+    "reveal-11": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-c2b0b00d-c30e-bf0b-afd9-f76de8e2175e-02cc3ba1 > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(2)"
+    },
+    "reveal-12": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-c2b0b00d-c30e-bf0b-afd9-f76de8e2175e-02cc3ba1 > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(3)"
+    },
+    "reveal-13": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_89fc65d2-8194-77a1-231b-aba2dbdfb151-02cc3ba1 > div:nth-of-type(2) > div:nth-of-type(1)"
+    },
+    "reveal-14": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_89fc65d2-8194-77a1-231b-aba2dbdfb151-02cc3ba1 > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "reveal-15": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_89fc65d2-8194-77a1-231b-aba2dbdfb151-02cc3ba1 > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)"
+    },
+    "reveal-16": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_89fc65d2-8194-77a1-231b-aba2dbdfb151-02cc3ba1 > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2)"
+    },
+    "reveal-17": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_89fc65d2-8194-77a1-231b-aba2dbdfb151-02cc3ba1 > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(3)"
+    },
+    "reveal-18": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "border-bottom-color",
+        "border-bottom-width",
+        "border-left-color",
+        "border-left-width",
+        "border-right-color",
+        "border-right-width",
+        "border-top-color",
+        "border-top-width",
+        "bottom",
+        "left",
+        "right",
+        "top"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-e85227fb-88b5-7047-336c-6c6f51a18102-02cc3ba1 > div:nth-of-type(2) > div > div:nth-of-type(2)"
+    },
+    "reveal-19": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-cee84c23-b85a-1c06-6296-1cfc19e8f9b3-02cc3ba1"
+    },
+    "parallax-20": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "parallax",
+      "properties": [
+        "transform"
+      ],
+      "durationMs": 1000,
+      "easing": "linear",
+      "selector": "div#w-node-cee84c23-b85a-1c06-6296-1cfc19e8f9b3-02cc3ba1 > svg"
+    },
+    "reveal-21": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_7116b1ce-4abc-303d-5af9-b11cdfc058e2-02cc3ba1"
+    },
+    "parallax-22": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "parallax",
+      "properties": [
+        "transform"
+      ],
+      "durationMs": 1000,
+      "easing": "linear",
+      "selector": "div#w-node-b1d8a48f-3ac5-2d18-a5cd-125cbed6c858-02cc3ba1 > svg"
+    },
+    "reveal-23": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-e85227fb-88b5-7047-336c-6c6f51a18102-02cc3ba1 > div:nth-of-type(3)"
+    },
+    "reveal-24": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-e85227fb-88b5-7047-336c-6c6f51a18102-02cc3ba1 > div:nth-of-type(3) > div:nth-of-type(2)"
+    },
+    "reveal-25": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 1200,
+      "easing": "linear",
+      "selector": "div#w-node-e85227fb-88b5-7047-336c-6c6f51a18102-02cc3ba1 > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1)"
+    },
+    "reveal-26": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 1200,
+      "easing": "linear",
+      "selector": "div#w-node-e85227fb-88b5-7047-336c-6c6f51a18102-02cc3ba1 > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2)"
+    },
+    "reveal-27": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 1200,
+      "easing": "linear",
+      "selector": "div#w-node-e85227fb-88b5-7047-336c-6c6f51a18102-02cc3ba1 > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3)"
+    },
+    "reveal-28": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(3)"
+    },
+    "reveal-29": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(4)"
+    },
+    "reveal-30": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(5)"
+    },
+    "reveal-31": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(6)"
+    },
+    "reveal-32": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(7)"
+    },
+    "reveal-33": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(8)"
+    },
+    "reveal-34": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(9)"
+    },
+    "reveal-35": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(10)"
+    },
+    "reveal-36": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(11)"
+    },
+    "reveal-37": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(12)"
+    },
+    "reveal-38": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(13)"
+    },
+    "reveal-39": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div#w-node-_3f2625dc-6f0a-c0cf-e0de-8c8d126a71df-02cc3ba1 > div:nth-of-type(14)"
+    },
+    "reveal-40": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div > svg > g > path:nth-of-type(1)"
+    },
+    "reveal-41": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div > svg > g > path:nth-of-type(2)"
+    },
+    "reveal-42": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div > svg > g > path:nth-of-type(3)"
+    },
+    "reveal-43": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div > svg > g > path:nth-of-type(4)"
+    },
+    "reveal-44": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div > svg > g > path:nth-of-type(5)"
+    },
+    "reveal-45": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div > svg > g > path:nth-of-type(6)"
+    },
+    "reveal-46": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div > svg > g > path:nth-of-type(7)"
+    },
+    "reveal-47": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div > svg > g > path:nth-of-type(8)"
+    },
+    "reveal-48": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div > svg > g > path:nth-of-type(9)"
+    },
+    "reveal-49": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div > svg > g > path:nth-of-type(10)"
+    },
+    "reveal-50": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 5000,
+      "easing": "linear",
+      "selector": "div > svg > g > path:nth-of-type(11)"
+    }
+  }
+}

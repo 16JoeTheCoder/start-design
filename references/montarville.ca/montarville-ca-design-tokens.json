@@ -1,0 +1,395 @@
+{
+  "$metadata": {
+    "generator": "designlang",
+    "version": "7.0.0",
+    "spec": "https://design-tokens.github.io/community-group/format/",
+    "source": "https://montarville.ca",
+    "generatedAt": "2026-11-01T11:33:20.469Z"
+  },
+  "primitive": {
+    "color": {
+      "brand": {
+        "primary": {
+          "$value": "#d0112b",
+          "$type": "color"
+        }
+      },
+      "neutral": {
+        "n100": {
+          "$value": "#fafafa",
+          "$type": "color"
+        },
+        "n200": {
+          "$value": "#121212",
+          "$type": "color"
+        },
+        "n300": {
+          "$value": "#252525",
+          "$type": "color"
+        },
+        "n400": {
+          "$value": "#000000",
+          "$type": "color"
+        }
+      },
+      "background": {
+        "bg0": {
+          "$value": "#121212",
+          "$type": "color"
+        },
+        "bg1": {
+          "$value": "#fafafa",
+          "$type": "color"
+        },
+        "bg2": {
+          "$value": "#252525",
+          "$type": "color"
+        },
+        "bg3": {
+          "$value": "#191919",
+          "$type": "color"
+        },
+        "bg4": {
+          "$value": "#000000",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "text0": {
+          "$value": "#fafafa",
+          "$type": "color"
+        },
+        "text1": {
+          "$value": "#0000ee",
+          "$type": "color"
+        },
+        "text2": {
+          "$value": "#121212",
+          "$type": "color"
+        },
+        "text3": {
+          "$value": "#d0112b",
+          "$type": "color"
+        },
+        "text4": {
+          "$value": "#000000",
+          "$type": "color"
+        }
+      },
+      "ramp": {
+        "primary": {
+          "50": {
+            "$value": "#ffd3cc",
+            "$type": "color"
+          },
+          "100": {
+            "$value": "#ffc3bc",
+            "$type": "color"
+          },
+          "200": {
+            "$value": "#ffaca6",
+            "$type": "color"
+          },
+          "300": {
+            "$value": "#ff8a86",
+            "$type": "color"
+          },
+          "400": {
+            "$value": "#ff5d5e",
+            "$type": "color"
+          },
+          "500": {
+            "$value": "#e6333e",
+            "$type": "color"
+          },
+          "600": {
+            "$value": "#d0112b",
+            "$type": "color"
+          },
+          "700": {
+            "$value": "#a6001b",
+            "$type": "color"
+          },
+          "800": {
+            "$value": "#8c0010",
+            "$type": "color"
+          },
+          "900": {
+            "$value": "#750008",
+            "$type": "color"
+          },
+          "950": {
+            "$value": "#470001",
+            "$type": "color"
+          }
+        },
+        "neutral": {
+          "50": {
+            "$value": "#f5f5f5",
+            "$type": "color"
+          },
+          "100": {
+            "$value": "#eaeaea",
+            "$type": "color"
+          },
+          "200": {
+            "$value": "#d9d9d9",
+            "$type": "color"
+          },
+          "300": {
+            "$value": "#c0c0c0",
+            "$type": "color"
+          },
+          "400": {
+            "$value": "#9f9f9f",
+            "$type": "color"
+          },
+          "500": {
+            "$value": "#828282",
+            "$type": "color"
+          },
+          "600": {
+            "$value": "#6c6c6c",
+            "$type": "color"
+          },
+          "700": {
+            "$value": "#575757",
+            "$type": "color"
+          },
+          "800": {
+            "$value": "#464646",
+            "$type": "color"
+          },
+          "900": {
+            "$value": "#393939",
+            "$type": "color"
+          },
+          "950": {
+            "$value": "#252525",
+            "$type": "color"
+          }
+        }
+      }
+    },
+    "spacing": {
+      "s0": {
+        "$value": "1px",
+        "$type": "dimension"
+      },
+      "s1": {
+        "$value": "23px",
+        "$type": "dimension"
+      },
+      "s2": {
+        "$value": "32px",
+        "$type": "dimension"
+      },
+      "s3": {
+        "$value": "45px",
+        "$type": "dimension"
+      },
+      "s4": {
+        "$value": "58px",
+        "$type": "dimension"
+      },
+      "s5": {
+        "$value": "67px",
+        "$type": "dimension"
+      },
+      "s6": {
+        "$value": "105px",
+        "$type": "dimension"
+      },
+      "s7": {
+        "$value": "116px",
+        "$type": "dimension"
+      },
+      "s8": {
+        "$value": "128px",
+        "$type": "dimension"
+      },
+      "s9": {
+        "$value": "157px",
+        "$type": "dimension"
+      },
+      "s10": {
+        "$value": "185px",
+        "$type": "dimension"
+      },
+      "s11": {
+        "$value": "208px",
+        "$type": "dimension"
+      },
+      "s12": {
+        "$value": "231px",
+        "$type": "dimension"
+      },
+      "s13": {
+        "$value": "251px",
+        "$type": "dimension"
+      },
+      "s14": {
+        "$value": "314px",
+        "$type": "dimension"
+      },
+      "s15": {
+        "$value": "400px",
+        "$type": "dimension"
+      },
+      "s16": {
+        "$value": "419px",
+        "$type": "dimension"
+      }
+    },
+    "radius": {
+      "r0": {
+        "$value": "2px",
+        "$type": "dimension"
+      },
+      "r1": {
+        "$value": "50px",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "sh0": {
+        "$value": "rgba(16, 16, 16, 0.08) 0px 4px 32px 0px",
+        "$type": "shadow"
+      },
+      "sh1": {
+        "$value": "rgba(0, 0, 0, 0.16) 0px 1px 2px 0px, rgba(0, 0, 0, 0.16) 0px 0px 12px 0px, rgba(0, 0, 0, 0.48) 0px 0px 48px 0px",
+        "$type": "shadow"
+      }
+    },
+    "fontFamily": {
+      "f0": {
+        "$value": "General Sans",
+        "$type": "fontFamily"
+      },
+      "f1": {
+        "$value": "Sono Proportional",
+        "$type": "fontFamily"
+      },
+      "f2": {
+        "$value": "Fira Sans",
+        "$type": "fontFamily"
+      }
+    },
+    "fontSize": {
+      "h2": {
+        "$value": "92.4444px",
+        "$type": "dimension"
+      },
+      "title-1": {
+        "$value": "69.3333px",
+        "$type": "dimension"
+      },
+      "h3": {
+        "$value": "52px",
+        "$type": "dimension"
+      },
+      "h1": {
+        "$value": "34.6667px",
+        "$type": "dimension"
+      },
+      "title-2": {
+        "$value": "23.1111px",
+        "$type": "dimension"
+      },
+      "title-3": {
+        "$value": "17.3333px",
+        "$type": "dimension"
+      },
+      "h4": {
+        "$value": "16.9px",
+        "$type": "dimension"
+      },
+      "title-4": {
+        "$value": "14px",
+        "$type": "dimension"
+      },
+      "title-5": {
+        "$value": "13.3333px",
+        "$type": "dimension"
+      },
+      "body": {
+        "$value": "13px",
+        "$type": "dimension"
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "action": {
+        "primary": {
+          "$value": "{primitive.color.brand.primary}",
+          "$type": "color"
+        },
+        "onPrimary": {
+          "$value": "#fafafa",
+          "$type": "color"
+        }
+      },
+      "surface": {
+        "default": {
+          "$value": "{primitive.color.background.bg0}",
+          "$type": "color"
+        },
+        "page": {
+          "$value": "#121212",
+          "$type": "color"
+        },
+        "onPage": {
+          "$value": "#fafafa",
+          "$type": "color"
+        },
+        "raised": {
+          "$value": "#fafafa",
+          "$type": "color"
+        },
+        "onRaised": {
+          "$value": "#000000",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "body": {
+          "$value": "{primitive.color.text.text0}",
+          "$type": "color"
+        }
+      }
+    },
+    "typography": {
+      "body": {
+        "$value": {
+          "fontFamily": "General Sans",
+          "fontSize": "13px",
+          "fontWeight": "400",
+          "lineHeight": "normal"
+        },
+        "$type": "typography"
+      },
+      "heading": {
+        "$value": {
+          "fontFamily": "General Sans",
+          "fontSize": "34.6667px",
+          "fontWeight": "600",
+          "lineHeight": "38.1333px"
+        },
+        "$type": "typography"
+      }
+    },
+    "radius": {
+      "control": {
+        "$value": "{primitive.radius.r0}",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "elevated": {
+        "$value": "{primitive.shadow.sh1}",
+        "$type": "shadow"
+      }
+    }
+  }
+}
